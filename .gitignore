@@ -1,1 +1,21 @@
-.pio
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build files
+build/
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets - IMPORTANT!
+src/secrets.h
+
+# OS files
+.DS_Store
+Thumbs.db

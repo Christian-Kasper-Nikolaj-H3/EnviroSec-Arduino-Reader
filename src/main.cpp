@@ -4,6 +4,7 @@
 #include <WiFiS3.h>
 #include <ArduinoMqttClient.h>
 #include <ArduinoJson.h>
+#include "secrets.h"
 
 // Pin definitions
 #define SS_PIN 10
@@ -18,12 +19,9 @@
 // Device identifier
 const char* DEVICE_ID = "device1";
 
-//WiFi credentials
-const char* WIFI_SSID = "Lab-ZBC";
-const char* WIFI_PASSWORD = "Prestige#PuzzledCASH48!";
+
 
 // MQTT configuration
-const char* MQTT_BROKER = "raspberry_pi_ip_address";
 const int MQTT_PORT = 1883;
 const char* MQTT_TOPIC_REQUEST = "access/request";
 const char* MQTT_TOPIC_RESPONSE = "access/response/1";
