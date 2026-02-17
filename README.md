@@ -45,8 +45,8 @@ An Arduino-based RFID access control system that communicates with a central gat
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Christian-Kasper-Nikolaj-H3/EnviroSec-Arduino
-   cd EnviroSec-Arduino
+   git clone https://github.com/Christian-Kasper-Nikolaj-H3/EnviroSec-Arduino-Reader.git
+   cd EnviroSec-Arduino-Reader
    ```
 
 2. **Create your secrets file**
